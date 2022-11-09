@@ -30,6 +30,7 @@ function App() {
                     <Route path="/productos" element={<ProductosIndex />} />
                     <Route path="/categorias" element={<CategoriasIndex />} />
                     <Route path="/usuarios" element={<UsuariosIndex />} />
+                    <Route path="/login" element={<LoginView />} />
                     <Route
                         path="/usuarios/create"
                         element={<CreateUsuario />}
